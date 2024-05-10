@@ -1,0 +1,313 @@
+*{
+    background-color: rgb(253, 215, 215);
+}
+/*inicio header */
+header{
+    padding:12px;
+    margin-bottom: 20px ;
+    background-color: rgb(238, 161, 161);
+    border-radius: 15px;
+}
+.header{
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgb(238, 161, 161);
+    height: auto;
+    width: 100%;
+}
+.fa-solid.fa-sun{
+    font-size: 50px;
+    color:rgb(88, 60, 60);
+    padding-left:40px;
+    padding-top:15px ;
+    background-color: rgb(238, 161, 161);
+}
+a,h1,.inicio,.menu,.hipervinculos{
+    background-color: rgb(238, 161, 161);
+}
+h1{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(88, 60, 60);
+    margin-left: 0;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+    content: normal;
+    margin-right: 5px;
+    padding-right: 5px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: italic;
+    font-display: medium;
+    font-weight: 600;
+}
+.hipervinculos{
+    padding: 10px 5px 0 0;
+    display: flex;
+    text-decoration: none;
+    color: rgb(88, 60, 60);
+}
+li{
+    display: flex;
+    padding: 10px 5px 0 0;
+    background-color: rgb(238, 161, 161);
+}
+/* fin header */
+
+/* inicio main */
+.acerca-de-mi{
+    display: flex;
+    margin:0 50px 0 50px;
+}
+.imagen-personal{
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.acerca-de{
+    display: block;
+    margin: 0 10px 0 15px;
+    justify-content: space-between;
+}
+.acerca{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(88, 60, 60);
+}
+.sol-gonzalez-izco{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(107, 74, 74);
+}
+.estudiante-marketing{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(151, 105, 105);
+}
+.p1, .p2, .p3{
+    font-family: "Montserrat", sans-serif;
+    color: rgb(151, 105, 105);
+    text-align: justify;
+}
+
+.estudios{
+    margin:0 50px 0 50px;
+}
+.cada-estudios{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+}
+.estudio{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(88, 60, 60);
+    margin-top: 50px;
+    font-size: 30px;
+}
+.magis{
+    border-radius: 15px;
+    background-color:rgb(238, 161, 161) ;
+    margin-right: 15px;
+}
+.magisterio{
+    background-color: rgb(238, 161, 161);
+    color: rgb(172, 105, 105);
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.pe1{
+    background-color: rgb(238, 161, 161);
+    color: rgb(245, 223, 223);
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.turismo{
+    border-radius: 15px;
+    background-color:rgb(238, 161, 161) ;
+    margin-right: 15px;
+}
+.lic-turismo{
+    background-color: rgb(238, 161, 161);
+    color: rgb(172, 105, 105);
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.pe2{
+    background-color: rgb(238, 161, 161);
+    color: rgb(245, 223, 223);
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.marketing{
+    border-radius: 15px;
+    background-color:rgb(238, 161, 161) ;
+}
+.mkt{
+    background-color: rgb(238, 161, 161);
+    color: rgb(172, 105, 105);
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.pe3{
+    background-color: rgb(238, 161, 161);
+    color: rgb(245, 223, 223);
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+
+.hobbys{
+    margin:0 50px 0 50px;
+}
+.hobby{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(88, 60, 60);
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: end;
+    border-style: none none solid none;
+    border-color: rgb(238, 161, 161);
+    border-width: 2px;
+}
+.todo{
+    display: flex;
+}
+
+.fotografia{
+    padding: 10px;
+}
+.foto{
+    margin: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(88, 60, 60);
+    text-align: center;
+    background-color:rgb(238, 161, 161);
+    border-radius: 10px;
+}
+.ph1{
+    margin: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.imagenes{
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.catarata, .bosque, .playa, .cascadita{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(238, 161, 161);
+}
+.catarata,.playa{
+    margin-right: 40px;
+}
+.catarata,.bosque{
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+.bujo{
+    padding: 5px;
+}
+.bullet-journal{
+    margin: 8px;
+    margin-top: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(88, 60, 60);
+    text-align: center;
+    background-color:rgb(238, 161, 161);
+    border-radius: 10px;
+    padding-top: 1px;
+}
+.ph2{
+    margin: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+.uno{
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(238, 161, 161);
+}
+.imagen-bujo{
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.helado{
+    padding: 5px;
+}
+.gelato{
+    margin: 8px;
+    margin-top: 12px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(88, 60, 60);
+    text-align: center;
+    background-color:rgb(238, 161, 161);
+    border-radius: 10px;
+    padding-top: 1px;
+}
+.ph3{
+    margin: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 5px;
+}
+.imagen-helado{
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding-top: 5px;
+}
+.dante{
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(238, 161, 161);
+}
+.inn{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 3px solid rgb(238, 161, 161);
+}
+/* fin main */
+/* inicio footer */
+.contacto-f{
+    font-family: "Montserrat Alternates", sans-serif;
+    color: rgb(88, 60, 60);
+    background-color: rgb(238, 161, 161);
+}
+footer{
+    padding:12px;
+    margin-bottom: 20px ;
+    background-color: rgb(238, 161, 161);
+    border-radius: 15px;
+}
+.contacto{
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgb(238, 161, 161);
+    height: auto;
+    width: 100%;
+}
+.contact{
+    background-color:rgb(238, 161, 161) ;
+}
+
